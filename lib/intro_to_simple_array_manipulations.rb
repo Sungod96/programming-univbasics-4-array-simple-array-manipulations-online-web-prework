@@ -30,11 +30,13 @@ def using_uniq(array)
   
 end
 def using_flatten(array)
+  array.flatten
 
 end
 def using_delete(array,element)
- 
+ array.delete(element)
 end
 def using_delete_at(array,integer)
-  
+  integer = 2 
+  array.delete_at(2)
 end
